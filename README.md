@@ -1,0 +1,2 @@
+# Lab_EC_S3
+This repository contains the S3 class lab, designed to help understand the impact of SIMD instructions on program throughput.
