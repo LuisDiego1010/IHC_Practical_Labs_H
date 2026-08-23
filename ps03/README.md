@@ -1,10 +1,10 @@
 # PS03
 
-This folder contains the **Week 3 practical laboratory**, focused on understanding the impact of **SIMD instructions** on program performance and throughput.
+This folder contains the Week 3 practical laboratory, focused on understanding the impact of SIMD instructions on program performance and throughput.
 
 ## Author
 
-**Luis Diego García Rojas**
+Luis Diego García Rojas
 
 ## Exercises
 
@@ -35,3 +35,15 @@ Speedup is calculated as:
 
 ```text
 Speedup = Scalar Time / AVX2 Time
+```
+
+### Analysis
+
+
+## References
+
+- [Intel Intrinsics Guide – AVX](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#avxnewtechs=AVX)
+
+## AI Conversations
+
+- [ChatGPT conversation](https://chatgpt.com/share/6a8aa8a6-d4b4-83e8-9596-5c340e4b0310)
