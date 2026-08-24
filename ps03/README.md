@@ -1,11 +1,12 @@
-# Laboratorio práctico semana 3
-Este directorio contiene el laboratorio práctico de la semana 3, enfocado en comprender el impacto de las instrucciones SIMD sobre el rendimiento de un programa.
+# PS03
+
+Este directorio contiene el **laboratorio práctico de la semana 3**, enfocado en comprender el impacto de las **instrucciones SIMD** sobre el rendimiento de un programa.
 
 ## Autor
 
-Luis Diego García Rojas
+**Luis Diego García Rojas**
 
-## Incisos 
+## Ejercicios
 
 ### Ejercicio A
 
@@ -124,11 +125,6 @@ Esto permite verificar que ambas versiones producen el mismo resultado.
 El speedup se calcula como:
 
 ```text
-Speedup = Scalar Time / AVX2 Time
-```
-
-### Analysis
-=======
 Speedup = Tiempo Scalar / Tiempo AVX2
 ```
 
@@ -143,11 +139,3 @@ Por lo tanto, la versión AVX2 fue aproximadamente **1.67 veces más rápida**.
 La razón principal es que AVX2 utiliza SIMD y puede trabajar con varios valores `float` al mismo tiempo. Como sus registros son de 256 bits y cada `float` tiene 32 bits, puede procesar hasta 8 valores `float` juntos.
 
 Sin embargo, esto no significa que el programa completo sea 8 veces más rápido, ya que también existen accesos a memoria, cargas de datos, reducciones y otras operaciones que no se vectorizan completamente. Por esta razón, el speedup obtenido es menor.
-
-## References
-
-- [Intel Intrinsics Guide – AVX](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#avxnewtechs=AVX)
-
-## AI Conversations
-
-- [ChatGPT conversation](https://chatgpt.com/share/6a8bcfb4-a0bc-83e8-b10c-277516fa8d2c)
