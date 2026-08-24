@@ -1,7 +1,10 @@
-# Computer Architecture Practical Laboratories
+# Laboratorios Prácticos de Arquitectura de Computadores
 
-This repository contains the practical laboratory exercises developed throughout the Computer Architecture course.
+Este repositorio contiene los laboratorios prácticos desarrollados a lo largo del curso de Arquitectura de Computadores.
 
-The laboratories focus on understanding CPU architecture concepts through practical implementations, performance measurements, and code optimization techniques.
+Los laboratorios están enfocados en comprender conceptos relacionados con la arquitectura y el rendimiento de CPU mediante implementaciones prácticas, mediciones de rendimiento y técnicas de optimización de código.
 
-Author: Luis Diego García Rojas. 
+## Autor
+
+**Luis Diego García Rojas**
+
