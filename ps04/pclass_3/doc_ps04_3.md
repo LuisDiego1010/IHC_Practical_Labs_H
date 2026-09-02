@@ -1,3 +1,7 @@
+
+## Práctica de Clase 3: Programación de Sistemas Multiprocesador (Multihilos y Afinidad)
+Este directorio contiene el laboratorio práctico 3, enfocado en comprender el impacto de la organización física de un computador, específicamente el uso de alineamiento de memoria, multihilos y afinidad de CPU, sobre el rendimiento de un programa.
+
 ### Entorno de pruebas
 
 * **Sistema Operativo:** Ubuntu 24.04.2 LTS
@@ -10,7 +14,6 @@
 * **Caché (L1d / L2 / L3):** 320 KiB / 7 MiB / 12 MiB
 
 ---
-
 ### Ejercicio A: Afinidad de CPU
 
 | Hilos ($p$) | Tiempo `cpu-naive` ($T_p$) en segundos | Tiempo `cpu-affinity` ($T_p$) en segundos |
@@ -45,3 +48,8 @@
 | **4** | 0.322312 |
 | **8** | 0.203212 |
 | **12** | 0.158092 |
+---
+
+### Análisis de Rendimiento
+
+### Uso de IA
